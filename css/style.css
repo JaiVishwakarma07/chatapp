@@ -1,0 +1,78 @@
+body {
+    background-image: url('media/1200px-Parque_Eagle_River\,_Anchorage\,_Alaska\,_Estados_Unidos\,_2017-09-01\,_DD_02.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.container{
+    max-width: 800px;
+    background-image:url("media/wp8676052.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    height: 70vh;
+    overflow-y: auto;
+    margin-bottom: 5px ;
+    margin-top: 60px;
+    border-radius: 15px;
+    overflow-x: hidden;
+}
+.message{
+    background-color: rgb(237, 247, 155);
+    width: 30%;
+    padding: 20px;
+    margin: 17px 12px;
+    border-radius: 10px;
+    max-height: 100px;
+}
+.left{
+    float: left;
+    clear: both;
+
+}
+
+.right{
+    float: right;
+    clear: both;
+
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    width :100%;
+}
+#messageInp{
+    width: 92%;
+    border-radius:  30px;
+    height: 40px;
+    padding-left: 7px;
+    border: none;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 10px;
+    width: 55px;
+}
+
+.head{
+    background-color: rgb(14, 116, 107);
+    height: 47px;
+    width: 800px;
+    padding: 10px;
+    color: white;
+    font-size: 21px;
+    margin-left: -12px;
+    top: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+
+.input-group{
+    width: 300px;
+    margin-left: 600px;
+    margin-right: 370px;
+}
